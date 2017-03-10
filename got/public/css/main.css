@@ -1,0 +1,135 @@
+body {
+    background: url('../images/gotbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+
+.hidden{
+	display: none;
+}
+#gottitle{
+    text-decoration: none;
+text-align: center;
+background-color: #020204;
+margin-bottom: 0px;
+
+
+}
+#gottitle img{
+	height: 115px;
+	width: 300px;
+}
+#information{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+#content
+
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#information, #characters{
+	
+	background: rgba(0,0,0,0.8);
+height: 520px;
+	border-width: 1px;
+	border-style: ridge;
+	border-color:#a3a2a2;
+	
+}
+#characters, #detail{
+
+overflow-y: scroll;
+}
+
+#searchCon{
+background: rgb(0,0,0);
+max-width: 80%;
+margin-top: 2%;
+margin-left: 10%;
+}
+#characters{
+    padding-left: 3%;
+
+}
+
+#characters a, h2{
+text-decoration: none;
+color: white;
+
+}
+#characters::-moz-scrollbar {
+    width: 12px;
+}
+
+#characters::-moz-scrollbar-track {
+    -moz-box-shadow: inset 0 0 6px rgb(162,162,162); 
+    border-radius: 10px;
+}
+
+#characters::-moz-scrollbar-thumb {
+    border-radius: 10px;
+    -moz-box-shadow: inset 0 0 6px rgb(162,162,162); 
+}
+
+
+#characters::-webkit-scrollbar {
+    width: 12px;
+}
+
+#characters::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(162,162,162); 
+    border-radius: 10px;
+}
+
+#characters::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(162,162,162); 
+}
+
+#information{
+    text-align: center;
+}
+
+#person{
+    height: 200px;
+    width: 200px;
+}
+#banner{
+    height: 172px;    
+    width: 171px;
+}
+#house1, #house2, #detail{
+    height: 502px;
+
+}
+#detail{
+ color: white;
+    overflow-y: scroll;
+    padding-top: 5%;
+}
+ #detail::-webkit-scrollbar {
+    width: 0px;
+}
+
+ #detail::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(162,162,162); 
+    border-radius: 10px;
+}
+
+ #detail::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(162,162,162); 
+}
